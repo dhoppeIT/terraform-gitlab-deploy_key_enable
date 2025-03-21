@@ -1,6 +1,6 @@
 # terraform-gitlab-deploy_key_enable
 
-Terraform module to manage the following Twingate resources:
+Terraform module to manage the following GitLab resources:
 
 * gitlab_deploy_key_enable
 

@@ -3,6 +3,4 @@ resource "gitlab_deploy_key_enable" "this" {
   project = var.project
 
   can_push = var.can_push
-  key      = var.key
-  title    = var.title
 }

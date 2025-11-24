@@ -57,16 +57,16 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_can_push"></a> [can\_push](#input\_can\_push) | Can deploy key push to the project's repository | `bool` | `false` | no |
-| <a name="input_key"></a> [key](#input\_key) | Deploy key | `string` | `null` | no |
 | <a name="input_key_id"></a> [key\_id](#input\_key\_id) | The Gitlab key ID for the pre-existing deploy key | `string` | n/a | yes |
 | <a name="input_project"></a> [project](#input\_project) | The name or ID of the project to add the deploy key to | `string` | n/a | yes |
-| <a name="input_title"></a> [title](#input\_title) | Deploy key's title | `string` | `null` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource |
+| <a name="output_key"></a> [key](#output\_key) | Deploy key |
+| <a name="output_title"></a> [title](#output\_title) | Deploy key's title |
 <!-- END_TF_DOCS -->
 
 ## Authors

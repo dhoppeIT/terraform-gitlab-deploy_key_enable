@@ -13,15 +13,3 @@ variable "can_push" {
   default     = false
   description = "Can deploy key push to the project's repository"
 }
-
-variable "key" {
-  type        = string
-  default     = null
-  description = "Deploy key"
-}
-
-variable "title" {
-  type        = string
-  default     = null
-  description = "Deploy key's title"
-}

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-deploy_key_enable/compare/v1.1.0...v1.1.1) (2025-11-24)
+
+### Bug Fixes
+
+* **terraform:** Add support for GitLab 18.6.1 ([c8ca46e](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-deploy_key_enable/commit/c8ca46eb6d26857390ab6adc55cccc4c9a5f3fcb))
+
 ## [1.1.0](https://gitlab.com/terraform-child-modules-48151/terraform-gitlab-deploy_key_enable/compare/v1.0.0...v1.1.0) (2025-05-20)
 
 ### Features
